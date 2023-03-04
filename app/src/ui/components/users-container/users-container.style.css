@@ -1,0 +1,29 @@
+.avatar-image {
+  display: flex;
+  max-width: 400px;
+}
+
+.post-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-container-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-user {
+  cursor: pointer;
+}

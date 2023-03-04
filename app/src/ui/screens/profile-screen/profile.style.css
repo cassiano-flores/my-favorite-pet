@@ -1,0 +1,41 @@
+.botao-anterior-proximo {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.botao-anterior-proximo button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #0079d3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-anterior-proximo button:hover {
+    transform: scale(1.1);
+}
+
+.botao-anterior-proximo button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.page-size-select * {
+    color: #fff;
+}
+
+.numero-itens {
+    appearance: none;
+    border: none;
+    background: transparent;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+}

@@ -1,0 +1,62 @@
+.container-home-screen {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.logo {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 5px;
+}
+
+.registerModal {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 550px;
+}
+
+.textField {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#button-register {
+  color: white;
+  background: #3f51b5;
+}
